@@ -8,3 +8,5 @@ Subfolders for each of the steps involved with setting up the cluster, deploymen
 1. [cert-manager](cert-manager) - for setting up cert-manager with ingress-nginx, and issuing a certificate to a Secret for use by RabbitMQ.
 1. [rabbitmq-cluster](rabbitmq-cluster) - to set up RabbitMQ, using the certificate created in the previous step.
 1. [deploy-apps](deploy-apps) - to deploy applications as Workloads. 
+
+Accompanying [blog article](https://blog.cetre.co.uk/how-to-automate-provisioning-and-deployment-of-rabbitmq-with-cert-manager-on-a-kubernetes-cluster-in-gke-within-gcp/).
